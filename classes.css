@@ -1,0 +1,252 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,800;1,400&display=swap'); */
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+     margin-top: 0px;
+     margin: 0;
+    padding: 20px; 
+
+}
+
+.space1{
+text-align: center;
+font-size: small;
+font-style: italic;
+margin: 0;
+
+
+}
+
+.space{
+    margin: 5px;
+    margin-top: 20px;
+}
+
+
+p{
+    font-weight: 700;
+    font-size: small;
+    font-family: sans-serif;
+    text-align: center;
+    margin:0;
+    line-height: 1.3;
+
+
+}
+
+
+.classes{
+    display: flex;
+}
+
+
+
+.bodystrength{
+    width: 23%;
+    height: 380px;
+    border: 1px  rgb(255, 255, 255); 
+    box-shadow: 2px 2px 10px rgba(161, 60, 60, 0.808);
+    margin-left: 11.1em;
+    border-radius: 8px; 
+  
+}
+
+.bodystrength1{
+    background: url(./Body\ Strength.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 60%;
+    font-weight: 700;
+    background-blend-mode: difference;
+    box-shadow: 0 0 70px rgb(211, 207, 207) , 0 0 15px rgb(0, 0, 0) ;
+   
+}
+
+
+
+ .bodystrength2{
+   margin: 3px;
+       text-align: center; 
+      
+} 
+
+.parag{
+    margin-top: 13px;
+    color: rgb(231, 16, 16);
+   font-weight: 600;
+}
+
+h4{
+    margin-top: 8px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.parag1{
+    text-align: center;
+    font-weight: 600;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+
+.circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    margin-left: 40%;
+    color: white;
+    font-size: large;
+    margin-bottom: 150px;
+    font-weight: 900;
+    box-shadow: 0 0 10px rgb(211, 207, 207) , 0 0 10px rgba(161, 60, 60, 0.808) ;
+    /* rgba(0, 0, 1, 0.658) */
+}
+
+  h5{
+    padding-top: 15px;
+  }
+  
+
+
+
+  
+.muscletraining{
+    width: 23%;
+    height: 380px;
+    border: 1px  rgb(255, 255, 255); 
+    box-shadow: 2px 2px 10px rgba(161, 60, 60, 0.808);
+    border-radius: 8px; 
+    margin-left: 50px;
+  
+}
+
+.muscletraining1{
+    background: url(./Muscle\ Training.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 60%;
+    font-weight: 700;
+    background-blend-mode: difference;
+    box-shadow: 0 0 70px rgb(211, 207, 207) , 0 0 15px rgb(0, 0, 0) ;
+   
+}
+
+
+
+ .muscletraining2{
+   margin: 3px;
+       text-align: center; 
+      
+} 
+
+
+
+
+.classicbocking{
+    width: 23%;
+    height: 380px;
+    border: 1px  rgb(255, 255, 255); 
+    box-shadow: 2px 2px 10px rgba(161, 60, 60, 0.808);
+    border-radius: 8px; 
+    margin-left: 50px;
+  
+}
+
+.classicbocking1{
+    background: url(./Classic\ Bocking.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 60%;
+    font-weight: 700;
+    background-blend-mode: difference;
+    box-shadow: 0 0 70px rgb(211, 207, 207) , 0 0 15px rgb(0, 0, 0) ;
+   
+}
+
+
+
+ .classicbocking2{
+   margin: 3px;
+       text-align: center; 
+      
+} 
+
+
+.nav-bar{
+    color:#737373; background-color:#26272b;
+}
+
+
+.flex{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+    align-items: center;
+}
+
+.nav-right-side > ul> li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.nav-right-side > ul >li >a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.nav-right-side > ul >li > a> i{
+    /* position: relative; */
+    transition: 0.3s;
+}
+.nav-right-side > ul >li  :hover{
+    color: #ed392b;
+    transition: 0.3s;
+}
+
+.nav-left-side {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo {
+    color: #ed382b;
+    font-size: 55px;
+    margin-right: 10px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.name :nth-child(1){
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.name :nth-child(2){
+    font-size: 11px;
+}

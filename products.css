@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.nav-bar{
+    color:#737373; background-color:#26272b;
+}
+
+.flex{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 20px 0;
+    align-items: center;
+}
+
+.nav-right-side > ul> li {
+    display: inline-block;
+    margin-right: 30px;
+  
+}
+
+.nav-right-side > ul >li >a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.3s;
+  
+}
+
+.nav-right-side > ul >li > a> i{
+    /* position: relative; */
+    transition: 0.3s;
+}
+
+.nav-right-side > ul >li  :hover{
+    color: #ed392b;
+    transition: 0.3s;
+}
+
+.nav-left-side {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-left-side .name{
+    margin-right: 600px;
+}
+
+.logo {
+    color: hsl(4, 84%, 55%);
+    font-size: 55px;
+    margin-right: 10px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.name :nth-child(1){
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.name :nth-child(2){
+    font-size: 11px;
+}
+
+
+.heading{
+    text-align: center;
+     margin: 0;
+    padding: 20px; 
+
+}
+
+.space{
+    margin: 10px;
+}
+
+p{
+    text-align: center;
+    font-size: small;
+}
+
+.stars{
+    width: 45%;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+ .pr{
+    margin: 0px;
+ } 
+
+.inside-container{
+display: flex;
+    }
+
+.VitalityMill{
+    width: 20%;
+    height: 360px;
+    border: 1px  rgb(255, 255, 255); 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 7%;
+    border-radius: 5px; 
+    margin-top: 40px;
+  
+}
+
+.VitalityMill_1{
+    background-image:url(./treadmill.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 75%;
+    font-weight: 700;
+    background-blend-mode: darken;
+   
+}
+
+.VitalityMill_2{
+    margin: 2px;
+    text-align: center;
+    font-weight: bolder;
+ }
+ 
+ 
+ 
+ 
+ .MuscleMates{
+    width: 20%;
+    height: 360px;
+    border: 1px  rgb(255, 255, 255); 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 30px;
+    border-radius: 5px; 
+    margin-top: 40px;
+  
+}
+
+.MuscleMates_1{
+    background-image:url(./dumbbells.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 75%;
+    font-weight: 700;
+    background-blend-mode: darken;
+   
+}
+
+.MuscleMates_2{
+    margin: 2px;
+    text-align: center;
+    font-weight: bolder;
+ }
+ 
+
+
+
+ .RideZone{
+    width: 20%;
+    height: 360px;
+    border: 1px  rgb(255, 255, 255); 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 30px;
+    border-radius: 5px; 
+    margin-top: 40px;
+  
+}
+
+.RideZone_1{
+    background-image:url(./bikee.jpg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 75%;
+    font-weight: 700;
+    background-blend-mode: darken;
+   
+}
+
+.RideZone_2{
+    margin: 2px;
+    text-align: center;
+    font-weight: bolder;
+ }
+ 
+
+
+ .FitSet{
+    width: 20%;
+    height: 360px;
+    border: 1px  rgb(255, 255, 255); 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 30px;
+    border-radius: 5px; 
+    margin-top: 40px;
+  
+}
+
+.FitSet_1{
+    background-image:url(./kitt1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 75%;
+    font-weight: 700;
+    background-blend-mode: darken;
+   
+}
+
+.FitSet_2{
+    margin: 2px;
+    text-align: center;
+    font-weight: bolder;
+ }
+ 
+
+  .border-box {
+    position: relative;
+  }
+  
+  .border-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65px;
+    height: 60px;
+  }
+  
+  .border-box::before {
+    content: ''; /* add an empty content before the element */
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    box-sizing: border-box; /* include the border in the dimensions of the pseudo-element */
+    background-color: rgb(0, 0, 0); 
+    z-index: -1; /* set the z-index to -1 so the image is on top */
+  }
+  
+
+  #sale{
+    font-size: small;
+    color: #585151;
+    text-decoration: line-through;
+    margin-right: 5px;
+
+}
+
+
+
+.socialmedia{
+    width: 25px;
+    margin-top: 1em;
+    margin-left: 4px;
+}
+
+
+.site-footer
+{
+  margin-top: 70px;
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+
+.container{
+    display: flex;
+}
+
+
+
+.RONBYFITNESS{
+    margin-left: 5em;
+   
+}
+.p1{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    width: 25em;
+    text-align: left;
+}
+.p2{
+    margin-bottom: 10px;
+}
+
+.p3{
+    margin-top: 2em;
+    margin-bottom: 10px;
+}
+
+.OPENINGHOURS{
+    margin-left: 10em;
+}
+
+.SUBSCRIBENOW{
+    margin-left: 12em;
+}
+
+.p5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submit
+{
+background-color: rgb(223, 16, 16);
+color: white;
+border: none;
+padding: 2px;
+}
+
+.submit:hover{
+    background: transparent;
+    transition: 1s;
+    background-color: rgb(253, 253, 253);
+    color: black;
+}
+

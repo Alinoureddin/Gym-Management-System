@@ -1,0 +1,74 @@
+
+*{
+ 
+   box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+body {
+    background-color: whitesmoke;
+  height: 100vh;
+    margin: 0; display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.container {
+    background-color: white;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 7px 7px 10px 1px rgb(49, 42, 42);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #6e82d2;
+}
+
+.button-field {
+    text-align: center;
+}
+
+button[type="submit"] {
+    background-color: #ed392b;
+    color: white;
+    padding: 10px 20px;
+    border: 3px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #ed392b; }
+
+
